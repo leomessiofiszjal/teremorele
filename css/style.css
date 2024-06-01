@@ -1,0 +1,286 @@
+body {
+    font-family: "Gilroy-Medium";
+    background-color: #F9F9F9 !important;
+}
+.primaryButton {
+    font-family: 'Gilroy-SemiBold';
+    background-color: #75BF7A;
+    font-size: 22px;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.nav-item {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.navbar-brand {
+    margin-left: 22px;
+}
+.nav-link {
+    font-family: 17px;
+    font-family: "Gilroy-Medium";
+    color: #9E9DA2;
+}
+.nav-link.active {
+    color: black;
+}
+.navbar {
+    background-color: white !important;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+h1 {
+    font-family: "Gilroy ExtraBold";
+    font-size: 60px;
+    line-height: 1em;
+}
+h2 {
+    font-family: "Gilroy ExtraBold";
+    line-height: 1em;
+}
+.main-banner {
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 154px;
+    margin-bottom: 64px;
+}
+h4 {
+    font-family: "Gilroy-Medium";
+    color: #9E9DA2;
+}
+.main-banner-img {
+    max-height: 553px;
+    max-width: 523.633px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.black-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 67px;
+    font-family: "Gilroy ExtraBold"; 
+    font-size: 22px;
+    text-align: center;
+    width: 260px;
+    margin-top: 16px;
+}
+.black-btn:hover img {
+    filter: invert(1);
+    transition: 0.4s;
+}
+
+.main-banner-bottom-text {
+    margin-bottom: 48px;
+}
+
+/* irek code */
+.phoneinput-section {
+    background-color: #75BF7A;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: "Gilroy-Medium";
+    font-size: 25px;
+}
+.phoneinput-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    height: 67px;
+    font-family: "Gilroy ExtraBold"; 
+    font-size: 22px;
+    text-align: center;
+    margin-left: 8px;
+}
+.phoneinput-btn:hover {
+    background-color: white;
+}
+.phoneinput-btn-container {
+    padding-right: 1rem !important;
+}
+.phoneinput-input {
+    font-family: "Gilroy-SemiBold";
+    padding: 18px;
+    border-radius: 4px;
+    width: 100%;
+    height: 67px;
+}
+
+.phoneinput-input::placeholder {
+    opacity: 35%;
+}
+
+.phoneinput-text {
+    margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .phoneinput-text {
+        text-align: center !important;
+        margin-bottom: 16px;
+    }
+    .phoneinput-btn {
+        margin: auto;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .phoneinput-input {
+        width: 100%;
+        margin: 0;
+    }
+    .phoneinput-btn-container {
+        padding-right: 0 !important;
+    }
+    .black-btn {
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+  }
+/* irek code end */
+
+.logo-color {
+    color: #75BF7A;
+}
+
+.gallery-section {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.benefits-section {
+    margin-top: 0px;
+}
+
+.img-button {
+    filter: invert(1);
+}
+
+.img-button:hover {
+    filter: invert(0.25);
+    transition: 0.3s;
+}
+
+footer {
+    width: calc(100% - 48px);
+    margin: auto;
+}
+
+/* irek code */
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -70px; /* Pozycjonowanie wskaźników poniżej karuzeli */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #75BF7A;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+.carousel-indicators button {
+    background-color: #75BF7A;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    border: none;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    aspect-ratio: 1;
+}
+
+.carousel-container::before {
+    content: '';
+    position: absolute;
+    top: 28%;
+    left: 24%;
+    width: 85%;
+    height: 65%;
+    background-color: #75BF7A;
+    border-radius: 50%;
+    transform: translate(-20%, -20%);
+    z-index: -1;
+}
+
+.carousel-inner img {
+    height: 550px; /* Zmniejszenie rozmiaru obrazków */
+    object-fit: contain;
+}
+
+/* end of irek code */
+
+.default-right-auto-alignment {
+    margin-left: auto !important;
+    text-align: right !important;
+}
+
+.default-left-auto-alignment {
+    margin-right: auto !important;
+    text-align: left !important;
+}
+
+.tutorial-step-height {
+    height: 300px;
+}
+
+@media screen and (max-width: 991px) {
+    .default-right-auto-alignment {
+        margin: auto !important;
+        text-align: center !important;
+    }
+    .default-left-auto-alignment {
+        margin: auto !important;
+        text-align: center !important;
+    }
+    .text-auto-alignment {
+        text-align: center !important;
+    }
+    .left-tutorial {
+        margin-top: 64px;
+    }
+    .right-tutorial {
+        margin-top: 128px;
+    }
+    .carousel-container {
+        margin-top: 8px;
+    }
+    .gallery-section {
+        margin-bottom: 16px !important;
+    }
+}
+
+.left-tutorial {
+    margin-top: 64px;
+}
+.right-tutorial {
+    margin-top: 128px;
+    margin-bottom: 0px;
+}
+
+.join-tere-section {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
